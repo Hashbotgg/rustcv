@@ -13,7 +13,7 @@ readme = "README.md"
 
 [dependencies]
 cv-core = { version = "0.15.0", path = "../cv-core" }
-image = { version = "0.24", default-features = false }
+image = { version = "0.24", default-features = true }
 log = { version = "0.4.14", default-features = false }
 primal = { version = "0.3.0", default-features = false }
 derive_more = { version = "0.99.17", default-features = false }
